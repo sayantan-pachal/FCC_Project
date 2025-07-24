@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="title">Feedback Survey</h1>
+        <p id="description">We'd love to hear your thoughts! Please fill out this short survey.</p>
+
+        <form id="survey-form">
+            <label id="name-label" for="name">Name:</label>
+            <input id="name" type="text" name="name" placeholder="Enter your name" required>
+
+            <label id="email-label" for="email">Email:</label>
+            <input id="email" type="email" name="email" placeholder="Enter your email" required>
+
+            <label id="number-label" for="number">Age:</label>
+            <input id="number" type="number" name="age" placeholder="Enter your age" min="10" max="99">
+
+            <label for="dropdown">How did you hear about us?</label>
+            <select id="dropdown" name="referral">
+                <option value="">Select an option</option>
+                <option value="social">Social Media</option>
+                <option value="friend">Friend</option>
+                <option value="search">Search Engine</option>
+            </select>
+
+            <fieldset>
+                <legend>Would you recommend us?</legend>
+                <label><input type="radio" name="recommend" value="yes"> Yes</label>
+                <label><input type="radio" name="recommend" value="no"> No</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>What features do you use?</legend>
+                <label><input type="checkbox" name="features" value="blog"> Blog</label>
+                <label><input type="checkbox" name="features" value="forum"> Forum</label>
+                <label><input type="checkbox" name="features" value="newsletter"> Newsletter</label>
+            </fieldset>
+
+            <label for="comments">Any comments?</label>
+            <textarea id="comments" name="comments" rows="4" placeholder="Your thoughts..."></textarea>
+
+            <button id="submit" type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
