@@ -4,6 +4,7 @@ body {
     color: #222;
     margin: 0;
     padding: 20px;
+    transition: background-color 0.3s ease;
 }
 
 #main {
@@ -61,10 +62,87 @@ body {
     color: #006600;
     text-decoration: none;
     cursor: pointer;
-    /* Hand-like pointer */
 }
 
 #tribute-link:hover {
     text-decoration: underline;
     color: #004400;
+}
+
+/* Theme Switch Container – Top Right */
+#theme-switch-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+/* Toggle Switch Design */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    content: "";
+    position: absolute;
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+
+/* Dark Mode Switch Effects */
+input:checked + .slider {
+    background-color: #4CAF50;
+}
+
+input:checked + .slider:before {
+    transform: translateX(26px);
+}
+
+/* Dark Mode Styling for Page */
+body.dark-mode {
+    background-color: #121212;
+    color: #f0f0f0;
+}
+
+body.dark-mode #main {
+    background-color: #1e1e1e;
+    box-shadow: 0 4px 20px rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode #img-caption {
+    color: #ccc;
+}
+
+body.dark-mode #tribute-link {
+    color: #99ff99;
+}
+
+body.dark-mode #tribute-link:hover {
+    color: #ccffcc;
 }

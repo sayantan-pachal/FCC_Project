@@ -9,6 +9,13 @@
 </head>
 
 <body>
+    <div id="theme-switch-container">
+        <label class="switch">
+            <input type="checkbox" id="theme-toggle">
+            <span class="slider"></span>
+        </label>
+    </div>
+
     <main id="main">
         <h1 id="title">Netaji Subhas Chandra Bose – A Fearless Patriot</h1>
 
@@ -47,6 +54,13 @@
             by wikipedia
         </a>
     </main>
+    <script>
+        const toggleSwitch = document.getElementById('theme-toggle');
+
+        toggleSwitch.addEventListener('change', () => {
+            document.body.classList.toggle('dark-mode');
+        });
+    </script>
 </body>
 
 </html>

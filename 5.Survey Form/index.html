@@ -9,6 +9,12 @@
 </head>
 
 <body>
+    <div class="theme-toggle">
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider"></span>
+        </label>
+    </div>
     <div class="container">
         <h1 id="title">Feedback Survey</h1>
         <p id="description">We'd love to hear your thoughts! Please fill out this short survey.</p>
@@ -50,6 +56,13 @@
             <button id="submit" type="submit">Submit</button>
         </form>
     </div>
+    
+    <script>
+        const toggle = document.getElementById('themeToggle');
+        toggle.addEventListener('change', () => {
+            document.body.classList.toggle('light-theme');
+        });
+    </script>
 </body>
 
 </html>
