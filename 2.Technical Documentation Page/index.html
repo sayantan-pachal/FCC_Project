@@ -6,16 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Python Programming Docs</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body>
+    <div id="theme-switch-container">
+        <label class="switch">
+            <input type="checkbox" id="theme-toggle">
+            <span class="slider"></span>
+        </label>
+    </div>
+
     <nav id="navbar">
-        <header>Python Documentation</header>
+        <header>
+            <i class="fa-brands fa-python"></i>
+            Python Documentation
+        </header>
+        <div style="margin-bottom: 20px;">
+            <input type="text" id="search-box" placeholder="Search topics..."
+                style="width:100%; padding: 8px; border-radius: 5px; border: none;" />
+        </div>
         <a class="nav-link" href="#Introduction">Introduction</a>
         <a class="nav-link" href="#Data_Types">Data Types</a>
         <a class="nav-link" href="#Control_Structures">Control Structures</a>
         <a class="nav-link" href="#Functions">Functions</a>
         <a class="nav-link" href="#Modules_and_Packages">Modules and Packages</a>
+        <a class="nav-link" href="#Exception_Handling">Exception Handling</a>
+        <a class="nav-link" href="#File_Handling">File Handling</a>
+        <a class="nav-link" href="#List_Comprehensions">List Comprehensions</a>
+        <a class="nav-link" href="#Object-Oriented_Programming">Object-Oriented Programming</a>
+        <a class="nav-link" href="#Decorators">Decorators</a>
     </nav>
 
     <main id="main-doc">
@@ -75,7 +95,79 @@
                 <li>random</li>
             </ul>
         </section>
+        <section class="main-section" id="Exception_Handling">
+            <header>Exception Handling</header>
+            <p>Python provides a robust way to handle errors using try-except blocks.</p>
+            <code>try:\n    x = 10 / 0\nexcept ZeroDivisionError:\n    print("Cannot divide by zero!")</code>
+            <p>This prevents the program from crashing unexpectedly.</p>
+        </section>
+        <section class="main-section" id="File_Handling">
+            <header>File Handling</header>
+            <p>Python makes it easy to read and write files using the built-in open() function.</p>
+            <code>with open("example.txt", "r") as file:\n    content = file.read()</code>
+            <p>The 'with' keyword ensures the file is properly closed after use.</p>
+        </section>
+        <section class="main-section" id="List_Comprehensions">
+            <header>List Comprehensions</header>
+            <p>List comprehensions offer a concise way to create lists.</p>
+            <code>squares = [x*x for x in range(10)]</code>
+            <p>They're cleaner and more Pythonic than using loops.</p>
+        </section>
+        <section class="main-section" id="Object-Oriented_Programming">
+            <header>Object-Oriented Programming</header>
+            <p>Python supports OOP principles such as encapsulation, inheritance, and polymorphism.</p>
+            <code>class Person:\n    def __init__(self, name):\n        self.name = name\n    def greet(self):\n        print(f"Hello, {self.name}")</code>
+            <p>This approach helps organize and scale your code efficiently.</p>
+        </section>
+        <section class="main-section" id="Decorators">
+            <header>Decorators</header>
+            <p>Decorators are functions that modify the behavior of other functions.</p>
+            <code>def decorator(fn):\n    def wrapper():\n        print("Before function call")\n        fn()\n        print("After function call")\n    return wrapper</code>
+            <code>@decorator\ndef say_hello():\n    print("Hello!")</code>
+            <p>This allows enhanced functionality without changing original code structure.</p>
+        </section>
     </main>
+    <script>
+        // Dark Mode Toggle
+        const toggleSwitch = document.getElementById('theme-toggle');
+        toggleSwitch.addEventListener('change', () => {
+            document.body.classList.toggle('dark-mode');
+        });
+
+        // Smooth Scrolling
+        const sections = document.querySelectorAll("section");
+        const navLinks = document.querySelectorAll(".nav-link");
+
+        window.addEventListener("scroll", () => {
+            let current = "";
+
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                if (pageYOffset >= sectionTop - 60) {
+                    current = section.getAttribute("id");
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove("active");
+                if (link.getAttribute("href") === `#${current}`) {
+                    link.classList.add("active");
+                }
+            });
+        });
+
+        // Search Functionality
+        const searchBox = document.getElementById("search-box");
+
+        searchBox.addEventListener("input", () => {
+            const query = searchBox.value.toLowerCase();
+            navLinks.forEach(link => {
+                const text = link.textContent.toLowerCase();
+                link.style.display = text.includes(query) ? "block" : "none";
+            });
+        });
+    </script>
+
 </body>
 
 </html>
