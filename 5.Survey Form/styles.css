@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #18346b;
+    /* soft formal gray */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 1rem;
+}
+
+.container {
+    background: #33aaa0;
+    padding: 2rem 2.5rem;
+    border-radius: 15px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+}
+
+.container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#title {
+    text-align: center;
+    color: #374151;
+    margin-bottom: 0.5rem;
+}
+
+#description {
+    text-align: center;
+    color: #555;
+    margin-bottom: 2rem;
+}
+
+form label,
+form legend {
+    display: block;
+    margin: 1rem 0 0.5rem;
+    font-weight: 500;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 0.6rem;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 1rem;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #6366f1;
+    box-shadow: 0 0 5px rgba(99, 102, 241, 0.3);
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+
+fieldset {
+    border: none;
+    margin: 1rem 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 80px;
+    border-radius: 25px;
+}
+
+#submit {
+    margin: 2rem auto 0;
+    display: block;
+    padding: 0.75rem 2rem;
+    background-color: #6366f1;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#submit:hover {
+    background-color: #4f46e5;
+    transform: scale(1.05);
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 1.5rem;
+    }
+}
