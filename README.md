@@ -49,9 +49,3 @@ FCC_Project/
 ├── 7.quiz-generator using python/ 
 └── preview
 ```
-
-Getting Started
-```bash
-git clone https://github.com/sayantan-pachal/FCC_Project.git
-cd FCC_Project/
-```
