@@ -13,7 +13,7 @@ Credits
 - Reference content: Wikipedia – Subhas Chandra Bose
 
 Acknowledgments
-This project is a respectful homage to Netaji Subhas Chandra Bose, who inspired generations with his bravery and vision for independent India. His legacy continues to influence millions.
+- This project is a respectful homage to Netaji Subhas Chandra Bose, who inspired generations with his bravery and vision for independent India. His legacy continues to influence millions.
 
 Project Structure
 
