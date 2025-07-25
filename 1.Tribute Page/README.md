@@ -10,7 +10,7 @@ Technologies Used
 
 Preview
 
-![](./assets/preview.jpg)
+![App Preview](./assets/preview.jpg)
 
 Credits
 - Image courtesy: Wikimedia Commons
