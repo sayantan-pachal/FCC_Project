@@ -68,6 +68,23 @@ body {
     margin-bottom: 2rem;
 }
 
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 1rem;
+    margin: 2rem auto;
+    align-items: start;
+}
+
+img{
+    border: none; 
+    aspect-ratio: 16 / 9;
+    border-radius: 8px;
+}
+
 .project-tile {
     background-color: #2a2a2a;
     margin: 1rem auto;
