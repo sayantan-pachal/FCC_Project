@@ -3,6 +3,9 @@
 A simple yet elegant web tribute to Netaji Subhas Chandra Bose — one of India's most revered freedom fighters. This project combines clean HTML structure, subtle CSS animations, and a theme toggle to enhance user experience while honoring Netaji’s legacy.
 
 
+Live Demo
+- [Click here to view the live demo](https://sayantan-pachal.github.io/FCC_Project/1.Tribute%20Page)
+
 Technologies Used
 - HTML5
 - CSS3 (Flexbox, Transitions, Custom Switches)
