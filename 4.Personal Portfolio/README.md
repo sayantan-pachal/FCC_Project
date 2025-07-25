@@ -3,7 +3,7 @@
 ![Font Awesome](https://img.shields.io/badge/Icons-Font%20Awesome-339AF0?style=for-the-badge&logo=fontawesome&logoColor=white)
 
 
-#Personal Portfolio
+# Personal Portfolio
 
 A responsive, visually polished developer portfolio showcasing my journey, creativity, and projects. Built with clean HTML/CSS and enhanced with Font Awesome for icons, this site aims to combine minimalism with personality.
 
