@@ -10,9 +10,7 @@ Technologies Used
 
 Preview
 
-<p align="center">
-  <img src="./assets/preview.jpg" alt="App Preview" width="600"/>
-</p>
+![](./assets/preview.jpg)
 
 Credits
 - Image courtesy: Wikimedia Commons
