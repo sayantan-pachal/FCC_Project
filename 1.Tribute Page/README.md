@@ -8,10 +8,6 @@ Technologies Used
 - CSS3 (Flexbox, Transitions, Custom Switches)
 - JavaScript (Theme toggle event listener)
 
-Preview
-
-![App Preview](./assets/preview.jpg)
-
 Credits
 - Image courtesy: Wikimedia Commons
 - Reference content: Wikipedia – Subhas Chandra Bose
