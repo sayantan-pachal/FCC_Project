@@ -2,6 +2,10 @@
 
 An interactive, theme-switchable, beginner-friendly documentation site for Python programming concepts. Built using HTML, CSS, and JavaScript — this project features smooth scrolling, live search, and stylish navigation powered by Font Awesome icons.
 
+
+Live Demo
+- [Click here to view the live demo](https://sayantan-pachal.github.io/FCC_Project/2.Technical%20Documentation%20Page)
+
 Technologies Used
 - HTML5
 - CSS3
