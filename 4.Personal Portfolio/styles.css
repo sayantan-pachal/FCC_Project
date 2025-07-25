@@ -79,8 +79,8 @@ body {
     align-items: start;
 }
 
-img{
-    border: none; 
+img {
+    border: none;
     aspect-ratio: 16 / 9;
     border-radius: 8px;
 }
@@ -108,6 +108,38 @@ img{
 .project-tile:hover {
     transform: scale(1.02);
     transition: transform 0.3s ease;
+}
+
+.btn-show-all {
+    font: 1rem 'Segoe UI', sans-serif;
+    color: #f0f0f0;
+    background-color: #444;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease-out, transform 0.3s ease-out;
+}
+
+.btn-show-all:hover {
+    background-color: #b32a38;
+    transform: scale(1.03);
+}
+
+.btn-show-all i {
+    transition: transform 0.3s ease-out;
+}
+
+.btn-show-all:hover i {
+    transform: translateX(4px);
+}
+
+.btn-wrapper-flex {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
 }
 
 @media (max-width: 600px) {
