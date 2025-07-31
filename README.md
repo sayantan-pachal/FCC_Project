@@ -44,7 +44,8 @@ Structure Overview
 ```
 FCC_Project/ 
 ├── 1.Tribute Page/ 
-├── 2.Technical Documentation Page/ 
+├── 2.Technical Documentation Page/
+├── 3.Product Landing Page /
 ├── 4.Personal Portfolio/ 
 ├── 5.Survey Form/ 
 ├── 6.City Skyline/ 
