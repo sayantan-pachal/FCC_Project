@@ -3,7 +3,7 @@
 [![JavaScript](https://img.shields.io/badge/JavaScript-Interactive-yellow?logo=javascript)](#)
 [![Python](https://img.shields.io/badge/Python-CLI%20Logic-green?logo=python)](#)
 ![freeCodeCamp Project](https://img.shields.io/badge/freeCodeCamp-Project-006400?logo=freeCodeCamp&logoColor=white)
-![Project Complete](https://img.shields.io/badge/freeCodeCamp-Completed-success?logo=freeCodeCamp&logoColor=white)
+![Project Complete](https://img.shields.io/badge/freeCodeCamp_Project-Completed-success?logo=freeCodeCamp&logoColor=white)
 
 
 # FCC_Project
