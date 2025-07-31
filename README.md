@@ -17,7 +17,7 @@ Welcome to a curated collection of my projects built using **HTML**, **CSS**, **
 
 Each project is housed in its own folder, complete with previews, source code, and live demos.
 
-> All preview images are stored in the `preview/` directory and auto-linked in this table.
+> All preview images are stored in the `preview/` directory.
 
 Features
 - Fully responsive layouts
