@@ -31,5 +31,5 @@ Automated-Quiz-Generator/
 ├── quiz_main.py
 ├── questions.csv
 ├── results.csv
-├── README.md
+└── README.md
 ```

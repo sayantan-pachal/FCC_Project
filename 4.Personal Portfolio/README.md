@@ -1,6 +1,6 @@
-![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![Font Awesome](https://img.shields.io/badge/Icons-Font%20Awesome-339AF0?style=for-the-badge&logo=fontawesome&logoColor=white)
+![HTML](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
+![Font Awesome](https://img.shields.io/badge/Icons-Font%20Awesome-339AF0?logo=fontawesome&logoColor=white)
 
 
 # Personal Portfolio

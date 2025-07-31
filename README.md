@@ -1,7 +1,9 @@
-[![HTML](https://img.shields.io/badge/HTML5-Expert-orange?style=for-the-badge&logo=html5)](#)
-[![CSS](https://img.shields.io/badge/CSS3-Responsive-blue?style=for-the-badge&logo=css3)](#)
-[![JavaScript](https://img.shields.io/badge/JavaScript-Interactive-yellow?style=for-the-badge&logo=javascript)](#)
-[![Python](https://img.shields.io/badge/Python-CLI%20Logic-green?style=for-the-badge&logo=python)](#)
+[![HTML](https://img.shields.io/badge/HTML5-Expert-orange?logo=html5)](#)
+[![CSS](https://img.shields.io/badge/CSS3-Responsive-blue?logo=css3)](#)
+[![JavaScript](https://img.shields.io/badge/JavaScript-Interactive-yellow?logo=javascript)](#)
+[![Python](https://img.shields.io/badge/Python-CLI%20Logic-green?logo=python)](#)
+![freeCodeCamp Project](https://img.shields.io/badge/freeCodeCamp-Project-006400?logo=freeCodeCamp&logoColor=white)
+![Project Complete](https://img.shields.io/badge/freeCodeCamp-Completed-success?logo=freeCodeCamp&logoColor=white)
 
 
 # FCC_Project
