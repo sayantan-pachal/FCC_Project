@@ -1,19 +1,19 @@
 [![HTML](https://img.shields.io/badge/HTML5-Expert-orange?logo=html5)](#)
 [![CSS](https://img.shields.io/badge/CSS3-Responsive-blue?logo=css3)](#)
 [![JavaScript](https://img.shields.io/badge/JavaScript-Interactive-yellow?logo=javascript)](#)
-[![Python](https://img.shields.io/badge/Python-CLI%20Logic-green?logo=python)](#)
 ![freeCodeCamp Project](https://img.shields.io/badge/freeCodeCamp-Project-006400?logo=freeCodeCamp&logoColor=white)
 ![Project Complete](https://img.shields.io/badge/freeCodeCamp_Project-Completed-success?logo=freeCodeCamp&logoColor=white)
+[![React](https://img.shields.io/badge/React-Dynamic-blue?logo=react)](#)
 
 
 # FCC_Project
 
-Welcome to a curated collection of my projects built using **HTML**, **CSS**, **JavaScript**, and **Python**. This repository includes a variety of responsive websites, stylish layouts, interactive components, and CLI applications—each crafted to enhance technical depth and user experience.
+Welcome to a curated collection of my projects built using **HTML**, **CSS**, **JavaScript**, and **React**. This repository includes a variety of responsive websites, stylish layouts, interactive components, and CLI applications—each crafted to enhance technical depth and user experience.
 
 - HTML & CSS layouts
 - UI components and animations
 - JavaScript interactivity
-- Python-based logic and apps
+- React Core logic and state management
 
 Each project is housed in its own folder, complete with previews, source code, and live demos.
 
@@ -36,7 +36,7 @@ Technologies Used
 
 - HTML5, CSS3 (Flexbox, Grid)
 - Vanilla JavaScript for interactivity
-- Python (basic scripting & CLI tools)
+- React (v17) – Core logic and state management
 - Font Awesome for icons
 - GitHub Pages for deployment
 
@@ -49,6 +49,6 @@ FCC_Project/
 ├── 4.Personal Portfolio/ 
 ├── 5.Survey Form/ 
 ├── 6.City Skyline/ 
-├── 7.quiz-generator using python/ 
+├── 7.Random Quote Machine/ 
 └── preview
 ```
