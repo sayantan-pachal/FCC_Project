@@ -4,6 +4,9 @@
 A dynamic, responsive web app built with React and styled with modern CSS techniques. The Random Quote Machine fetches and displays motivational quotes and lets users share them via social media with a vibrant UI that adapts its color scheme randomly for visual appeal.
 
 
+Live Demo
+- [Click here to view the live demo](https://sayantan-pachal.github.io/FCC_Project/7.Random%20Quote%20Machine)
+
 Technologies Used
 - **HTML5** – Semantic structure and head metadata
 - **CSS3** – Responsive, minimalistic styling with transitions
