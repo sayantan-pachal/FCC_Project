@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    background: #16a085;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.quote-box {
+    background: white;
+    padding: 30px;
+    max-width: 650px;
+    width: 90%;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#text {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    transition: color 0.5s ease;
+}
+
+#author {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    transition: color 0.5s ease;
+}
+
+.buttons-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.social-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.btn {
+    border: none;
+    padding: 10px 14px;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.small-btn {
+    padding: 10px 14px;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 16%;
+    height: 16%;
+}
