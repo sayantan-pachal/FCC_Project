@@ -1,7 +1,7 @@
 const { useState } = React;
 
 marked.setOptions({
-    breaks: true
+    breaks: true,
 });
 
 const defaultMarkdown = `# Welcome to my React Markdown Previewer!
@@ -57,7 +57,7 @@ function App() {
                 id="editor-box"
                 style={{
                     display:
-                        fullscreenBox && fullscreenBox !== "editor" ? "none" : "block"
+                        fullscreenBox && fullscreenBox !== "editor" ? "none" : "block",
                 }}
             >
                 <div className="header">
@@ -87,7 +87,7 @@ function App() {
                 id="preview-box"
                 style={{
                     display:
-                        fullscreenBox && fullscreenBox !== "preview" ? "none" : "block"
+                        fullscreenBox && fullscreenBox !== "preview" ? "none" : "block",
                 }}
             >
                 <div className="header">
@@ -116,7 +116,7 @@ function App() {
                         marginBottom: 20,
                         fontSize: "0.8em",
                         color: "#888",
-                        textAlign: "center"
+                        textAlign: "center",
                     }}
                 >
                     Created by{" "}
