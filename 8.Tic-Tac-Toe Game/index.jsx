@@ -1,21 +1,30 @@
 const { useState } = React;
 
-export function Board() {
+function Board() {
   const initialState = Array(9).fill(null);
   const [squares, setSquares] = useState(initialState);
   const [xIsNext, setXIsNext] = useState(true);
   const [winner, setWinner] = useState(null);
 
   const winningCombos = [
-    [0,1,2], [3,4,5], [6,7,8], // rows
-    [0,3,6], [1,4,7], [2,5,8], // columns
-    [0,4,8], [2,4,6]           // diagonals
+    [0, 1, 2],
+    [3, 4, 5],
+    [6, 7, 8],
+    [0, 3, 6],
+    [1, 4, 7],
+    [2, 5, 8],
+    [0, 4, 8],
+    [2, 4, 6]
   ];
 
   const checkWinner = (squares) => {
     for (let combo of winningCombos) {
       const [a, b, c] = combo;
-      if (squares[a] && squares[a] === squares[b] && squares[a] === squares[c]) {
+      if (
+        squares[a] &&
+        squares[a] === squares[b] &&
+        squares[a] === squares[c]
+      ) {
         return squares[a];
       }
     }
@@ -64,7 +73,22 @@ export function Board() {
           </button>
         ))}
       </div>
-      <button id="reset" onClick={handleReset}>Reset</button>
+      <button id="reset" onClick={handleReset}>
+        Reset
+      </button>
+      <div style={{ marginTop: 20, fontSize: "0.8em", color: "#888" }}>
+        Created by{" "}
+        <a
+          href="https://www.linkedin.com/in/sayantan-pachal"
+          target="_blank"
+          rel="noreferrer"
+          style={{ color: "#888" }}
+        >
+          Sayantan Pachal
+        </a>
+      </div>
     </div>
   );
 }
+
+ReactDOM.createRoot(document.getElementById("root")).render(<Board />);

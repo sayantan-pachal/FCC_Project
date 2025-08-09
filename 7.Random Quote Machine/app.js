@@ -105,6 +105,17 @@ function App() {
                         New Quote
                     </button>
                 </div>
+                <div style={{ marginTop: 20, fontSize: "0.8em", color: "#888" }}>
+                    Created by{" "}
+                    <a
+                        href="https://www.linkedin.com/in/sayantan-pachal"
+                        target="_blank"
+                        rel="noreferrer"
+                        style={{ color: "#888" }}
+                    >
+                        Sayantan Pachal
+                    </a>
+                </div>
             </div>
         </div>
     );
