@@ -43,13 +43,18 @@ Technologies Used
 
 Structure Overview
 ```
-FCC_Project/ 
-├── 1.Tribute Page/ 
-├── 2.Technical Documentation Page/
-├── 3.Product Landing Page /
-├── 4.Personal Portfolio/ 
-├── 5.Survey Form/ 
-├── 6.City Skyline/ 
-├── 7.Random Quote Machine/ 
+FCC_Project
+├── 01.Tribute Page/ 
+├── 02.Technical Documentation Page/
+├── 03.Product Landing Page/
+├── 04.Personal Portfolio/ 
+├── 05.Survey Form/ 
+├── 06.City Skyline/ 
+├── 07.Random Quote Machine/ 
+├── 08.Tic-Tac-Toe Game/
+├── 09.JavaScript Calculator/
+├── 10.25 + 5 Clock/
+├── 11.Drum Machine/
+├── 12.Markdown Previewer/
 └── preview
 ```
