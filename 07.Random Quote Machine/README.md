@@ -5,7 +5,7 @@ A dynamic, responsive web app built with React and styled with modern CSS techni
 
 
 Live Demo
-- [Click here to view the live demo](https://sayantan-pachal.github.io/FCC_Project/7.Random%20Quote%20Machine)
+- [Click here to view the live demo](https://sayantan-pachal.github.io/FCC_Project/07.Random%20Quote%20Machine)
 
 Technologies Used
 - **HTML5** – Semantic structure and head metadata
@@ -25,6 +25,7 @@ Features
 
 File Structure
 ```
+Random Quote Machine
 ├── index.html
 ├── style.css
 ├── app.js  

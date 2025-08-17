@@ -1,4 +1,4 @@
-<h1 align="center">FCC_Project</h1>
+<h1 align="center">FCC_Projects</h1>
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/HTML5-Expert-orange?logo=html5" alt="HTML" /></a>

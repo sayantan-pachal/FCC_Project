@@ -4,7 +4,7 @@ A dynamic, layered city skyline rendered entirely with HTML and CSS — featurin
 
 
 Live Demo
-- [Click here to view the live demo](https://sayantan-pachal.github.io/FCC_Project/6.City%20Skyline)
+- [Click here to view the live demo](https://sayantan-pachal.github.io/FCC_Project/06.City%20Skyline)
 
 Technologies Used
 - HTML5

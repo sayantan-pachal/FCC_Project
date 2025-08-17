@@ -4,7 +4,7 @@ An interactive, theme-switchable, beginner-friendly documentation site for Pytho
 
 
 Live Demo
-- [Click here to view the live demo](https://sayantan-pachal.github.io/FCC_Project/2.Technical%20Documentation%20Page)
+- [Click here to view the live demo](https://sayantan-pachal.github.io/FCC_Project/02.Technical%20Documentation%20Page)
 
 Technologies Used
 - HTML5

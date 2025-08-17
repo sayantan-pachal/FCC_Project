@@ -37,6 +37,7 @@ body {
     align-items: center;
     border-radius: 6px;
     cursor: pointer;
+    -webkit-user-select: none;
     user-select: none;
     transition: background 0.2s;
 }

@@ -4,7 +4,7 @@ A simple yet elegant web tribute to Netaji Subhas Chandra Bose — one of India'
 
 
 Live Demo
-- [Click here to view the live demo](https://sayantan-pachal.github.io/FCC_Project/1.Tribute%20Page)
+- [Click here to view the live demo](https://sayantan-pachal.github.io/FCC_Project/01.Tribute%20Page)
 
 Technologies Used
 - HTML5

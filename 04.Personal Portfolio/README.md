@@ -9,7 +9,7 @@ A responsive, visually polished developer portfolio showcasing my journey, creat
 
 
 Live Demo
-- [Click here to view the live demo](https://sayantan-pachal.github.io/FCC_Project/4.Personal%20Portfolio)
+- [Click here to view the live demo](https://sayantan-pachal.github.io/FCC_Project/04.Personal%20Portfolio)
 
 
 Features

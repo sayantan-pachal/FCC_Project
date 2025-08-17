@@ -4,7 +4,7 @@ A clean, responsive, and theme-switchable survey form designed using HTML, CSS, 
 
 
 Live Demo
-- [Click here to view the live demo](https://sayantan-pachal.github.io/FCC_Project/5.Survey%20Form)
+- [Click here to view the live demo](https://sayantan-pachal.github.io/FCC_Project/05.Survey%20Form)
 
 Technologies Used
 - HTML5
