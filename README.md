@@ -9,7 +9,7 @@
   <a href="#"><img src="https://img.shields.io/badge/React-Dynamic-blue?logo=react" alt="React" /></a>
 </p>
 
-Welcome to a curated collection of my projects built using **HTML**, **CSS**, **JavaScript**, and **React**. This repository includes a variety of responsive websites, stylish layouts, interactive components, and CLI applications—each crafted to enhance technical depth and user experience.
+Welcome to a curated collection of my projects built using **HTML**, **CSS**, **JavaScript**, and **React**. This repository includes a variety of responsive websites, stylish layouts and interactive components — each crafted to enhance technical depth and user experience.
 
 - HTML & CSS layouts
 - UI components and animations
