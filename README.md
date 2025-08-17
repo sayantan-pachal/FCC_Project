@@ -1,12 +1,13 @@
-[![HTML](https://img.shields.io/badge/HTML5-Expert-orange?logo=html5)](#)
-[![CSS](https://img.shields.io/badge/CSS3-Responsive-blue?logo=css3)](#)
-[![JavaScript](https://img.shields.io/badge/JavaScript-Interactive-yellow?logo=javascript)](#)
-![freeCodeCamp Project](https://img.shields.io/badge/freeCodeCamp-Project-006400?logo=freeCodeCamp&logoColor=white)
-![Project Complete](https://img.shields.io/badge/freeCodeCamp_Project-Completed-success?logo=freeCodeCamp&logoColor=white)
-[![React](https://img.shields.io/badge/React-Dynamic-blue?logo=react)](#)
+<h1 align="center">FCC_Project</h1>
 
-
-# FCC_Project
+<p align="center">
+  <a href="#"><img src="https://img.shields.io/badge/HTML5-Expert-orange?logo=html5" alt="HTML" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/CSS3-Responsive-blue?logo=css3" alt="CSS" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/JavaScript-Interactive-yellow?logo=javascript" alt="JavaScript" /></a>
+  <img src="https://img.shields.io/badge/freeCodeCamp-Project-006400?logo=freeCodeCamp&logoColor=white" alt="freeCodeCamp Project" />
+  <img src="https://img.shields.io/badge/freeCodeCamp_Project-Completed-success?logo=freeCodeCamp&logoColor=white" alt="Project Complete" />
+  <a href="#"><img src="https://img.shields.io/badge/React-Dynamic-blue?logo=react" alt="React" /></a>
+</p>
 
 Welcome to a curated collection of my projects built using **HTML**, **CSS**, **JavaScript**, and **React**. This repository includes a variety of responsive websites, stylish layouts, interactive components, and CLI applications—each crafted to enhance technical depth and user experience.
 
